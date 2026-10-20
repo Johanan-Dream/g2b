@@ -8,7 +8,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Pipeline](https://img.shields.io/badge/Fixed_LLM-Inference-7C3AED)
-![Score](https://img.shields.io/badge/Recorded_Score-0.56189-2563EB)
+![Score](https://img.shields.io/badge/Leaderboard_Score-0.56687-2563EB)
+![Rank](https://img.shields.io/badge/Rank-356_%2F_607-059669)
 ![Archive](https://img.shields.io/badge/Archive-Documentation_Only-059669)
 
 [대회 페이지](https://dacon.io/competitions/official/236754/overview/description) · [상세 회고](docs/retrospective.md) · [결과 기록](docs/results.json) · [공개 범위](docs/publication_policy.md)
@@ -19,13 +20,28 @@
 
 ## 결과부터 보기
 
-| 마지막으로 기록된 공식 점수 ↑ | 해당 제출 실행시간 | 최신 로컬 후보 |
+| 공식 리더보드 표시 점수 ↑ | 점수 등록 팀 중 순위 | 최신 로컬 후보 |
 |:---:|:---:|:---:|
-| **0.5618889391 (v9)** | **28분 54초** | **v12 — 서버 점수 미확인** |
+| **0.56687** | **356위 / 607팀** | **v12 — 서버 결과 연결 미확인** |
 
-**공식 점수가 기록된 버전은 v9, 마지막으로 로컬 검증한 후보는 v12입니다.** 초기 성공 제출 v2의 0.2609815205에서 v9의 0.5618889391로 개선했습니다. 공식 점수는 당시 사용자가 전달한 채점 결과를 로컬 작업 기록에 보관한 값입니다. 공식 화면이나 최종 순위 증빙은 포함하지 않으며, 최종 순위·수상 여부는 주장하지 않습니다.
+2026-10-21(KST)에 [공식 리더보드](https://dacon.io/competitions/official/236754/leaderboard)의 전체보기에서 **`dsldkfnsd`** 기록을 확인했습니다. 607은 점수가 등록된 팀 수이며 참가 신청 인원과 다릅니다. 이 순위는 공개 화면의 리더보드 순위이며 수상 순위를 뜻하지 않습니다.
 
-이 저장소는 **프로젝트 소개와 집계 결과를 담은 문서 아카이브**입니다. 대회 자료와 실행 코드는 포함하지 않습니다. 판단 근거는 [공개 범위](docs/publication_policy.md)에 정리했습니다.
+현재 표시 점수는 과거 로컬 기록의 v9 제출 점수 **0.5618889391**과 다릅니다. 현재 점수에 대응하는 제출 버전은 확인되지 않아 v12의 성과로 연결하지 않았습니다. 과거 제출 기록은 아래에 별도로 남겼습니다.
+
+### 공식 리더보드 캡처
+
+![공식 리더보드 dsldkfnsd — 356위, 점수 0.56687](evidence/leaderboard/dsldkfnsd-row.png)
+
+<details>
+<summary>주변 순위가 포함된 공식 화면 펼치기</summary>
+
+![공식 리더보드 주변 순위 — 2026-10-21 KST](evidence/leaderboard/dsldkfnsd-context.png)
+
+</details>
+
+실제 브라우저 화면을 수정 없이 캡처했습니다. [출처와 촬영 시각](evidence/leaderboard/source.json)
+
+이 저장소는 **프로젝트 소개와 집계 결과를 담은 문서 아카이브**입니다. 공식 공개 리더보드 캡처를 포함하며, 배포 데이터와 실행 코드는 포함하지 않습니다. 판단 근거는 [공개 범위](docs/publication_policy.md)에 정리했습니다.
 
 ## 왜 이 프로젝트를 진행했나
 
@@ -107,6 +123,7 @@ v12는 로컬 검증을 통과했지만 공식 점수는 확인되지 않았습�
 
 | 자료 | 내용 |
 |---|---|
+| [리더보드 증빙](evidence/leaderboard/source.json) | 공식 화면과 확인 시각 |
 | [상세 회고](docs/retrospective.md) | 접근의 변화, 검증 범위와 남은 한계 |
 | [결과 기록](docs/results.json) | 집계 수치, 출처 유형, 검증 시점 |
 | [공개 범위](docs/publication_policy.md) | 확인한 규정과 제외 대상 |
@@ -114,6 +131,7 @@ v12는 로컬 검증을 통과했지만 공식 점수는 확인되지 않았습�
 ```text
 g2b/
 ├── README.md
+├── evidence/leaderboard/  # 공식 화면 캡처와 출처
 ├── docs/
 │   ├── retrospective.md
 │   ├── results.json

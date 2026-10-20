@@ -7,3 +7,10 @@
 !/docs/retrospective.md
 !/docs/publication_policy.md
 !/docs/results.json
+!/evidence/
+/evidence/*
+!/evidence/leaderboard/
+/evidence/leaderboard/*
+!/evidence/leaderboard/dsldkfnsd-row.png
+!/evidence/leaderboard/dsldkfnsd-context.png
+!/evidence/leaderboard/source.json
