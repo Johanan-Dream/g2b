@@ -1,0 +1,9 @@
+# Public documentation only; review every allowlist change.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+/docs/*
+!/docs/retrospective.md
+!/docs/publication_policy.md
+!/docs/results.json

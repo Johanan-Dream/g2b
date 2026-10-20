@@ -1,0 +1,45 @@
+{
+  "competition_id": "236754",
+  "publication_date": "2026-10-21",
+  "development_record_cutoff": "2026-09-28",
+  "source": "Local records; official scores supplied by participant at development time.",
+  "independently_reverified_on_leaderboard": false,
+  "official_results_recorded": [
+    {
+      "version": "v2",
+      "score": 0.2609815205,
+      "runtime_seconds": 1706
+    },
+    {
+      "version": "v9",
+      "score": 0.5618889391,
+      "runtime_seconds": 1734
+    }
+  ],
+  "latest_local_candidate": {
+    "version": "v12",
+    "official_score": null,
+    "server_runtime_seconds": null,
+    "development_comparisons": {
+      "indexed": {
+        "baseline": 0.8413572538572538,
+        "candidate": 0.8507844007844008,
+        "false_positives_removed": 5,
+        "new_wrong_labels": 0,
+        "actual_reviewed_notices": 10
+      },
+      "legacy": {
+        "baseline": 0.8149490058158788,
+        "candidate": 0.8476161637926344,
+        "false_positives_removed": 16,
+        "new_wrong_labels": 0,
+        "actual_reviewed_notices": 29
+      },
+      "meaning": "Same repeatedly inspected200 dev notices under two cached real inference formats; additional reviews are actual new fixed-model calls. Not independent holdouts or server-score estimates."
+    },
+    "historical_tests_passed": 107
+  },
+  "final_rank": null,
+  "award_status": "not verified",
+  "contains_per_record_data": false
+}
